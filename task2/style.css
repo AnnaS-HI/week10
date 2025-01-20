@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #E6E6FA; /* Лавандовый */
+    background-color: #E6E6FA; 
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
@@ -11,43 +11,39 @@ body {
     height: 100vh;
   }
   
-  /* Заголовок */
   h1 {
-    color: #9370DB; /* Темный сиреневый */
+    color: #9370DB; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Тень */
     margin-bottom: 20px;
   }
   
-  /* Галерея */
   .gallery {
     display: flex;
     align-items: center;
-    gap: 20px; /* Расстояние между кнопками и картинкой */
+    gap: 20px; 
   }
   
-  /* Кнопки */
   button {
-    background-color: #BA55D3; /* Средний сиреневый */
+    background-color: #BA55D3; 
     color: #fff;
     border: none;
-    border-radius: 15px; /* Закругленные углы */
+    border-radius: 15px; 
     padding: 10px 20px;
     cursor: pointer;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2); /* Тень */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2); 
     font-size: 16px;
     transition: background-color 0.3s, transform 0.2s;
   }
   
   button:hover {
-    background-color: #9932CC; /* Более темный сиреневый при наведении */
-    transform: scale(1.05); /* Небольшое увеличение */
+    background-color: #9932CC; 
+    transform: scale(1.05); 
   }
   
-  /* Картинка */
   img {
     width: 300px;
     height: auto;
-    border-radius: 10px; /* Небольшие закругления */
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Тень */
+    border-radius: 10px; 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); 
   }
   

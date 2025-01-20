@@ -2,22 +2,19 @@ const galleryImage = document.getElementById('galleryImage');
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
 
-// Текущий индекс изображения
-let currentIndex = 7; // Номер начального изображения (week7_test.png)
+let currentIndex = 7; // Номер начального изображения (week7_test.png) работает только с файлами с определенным именем, просто хотелось испробовать получится ли так
 
-// Функция обновления изображения
 function updateGallery(index) {
   galleryImage.src = `./assets/image/week${index}_test.png`;
 }
 
-// Обработчик кнопки "Назад"
+
 prevBtn.addEventListener('click', () => {
-  currentIndex = currentIndex === 7 ? 10 : currentIndex - 1; // Возврат к последнему, если дошли до первого
+  currentIndex = currentIndex === 7 ? 10 : currentIndex - 1; 
   updateGallery(currentIndex);
 });
 
-// Обработчик кнопки "Вперёд"
 nextBtn.addEventListener('click', () => {
-  currentIndex = currentIndex === 10 ? 7 : currentIndex + 1; // Возврат к первому, если дошли до последнего
+  currentIndex = currentIndex === 10 ? 7 : currentIndex + 1; 
   updateGallery(currentIndex);
 });
