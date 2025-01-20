@@ -1,0 +1,53 @@
+/* Общий фон */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E6E6FA; /* Лавандовый */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Заголовок */
+  h1 {
+    color: #9370DB; /* Темный сиреневый */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Тень */
+    margin-bottom: 20px;
+  }
+  
+  /* Галерея */
+  .gallery {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Расстояние между кнопками и картинкой */
+  }
+  
+  /* Кнопки */
+  button {
+    background-color: #BA55D3; /* Средний сиреневый */
+    color: #fff;
+    border: none;
+    border-radius: 15px; /* Закругленные углы */
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2); /* Тень */
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: #9932CC; /* Более темный сиреневый при наведении */
+    transform: scale(1.05); /* Небольшое увеличение */
+  }
+  
+  /* Картинка */
+  img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px; /* Небольшие закругления */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Тень */
+  }
+  
