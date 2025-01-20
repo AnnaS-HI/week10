@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Галерея</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Выберите товары</h1>
+  <div class="gallery">
+    <img src="assets/images/cat1.webp" class="image-item" data-price="100000" alt="Товар 1">
+    <img src="assets/images/cat2.webp" class="image-item" data-price="150000" alt="Товар 2">
+    <img src="assets/images/cat3.webp" class="image-item" data-price="200000" alt="Товар 3">
+    <img src="assets/images/cat4.webp" class="image-item" data-price="250000" alt="Товар 4">
+  </div>
+  <button onclick="updateTotal()">Рассчитать стоимость</button>
+  <p>Итоговая стоимость: <span id="totalPrice">0</span> руб.</p>
+  <script src="script.js"></script
+</body>
+</html>
